@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdays">
+        <item>C.Nhật</item>
+        <item>T.Hai</item>
+        <item>T.Ba</item>
+        <item>T.Tư</item>
+        <item>T.Năm</item>
+        <item>T.Sáu</item>
+        <item>T.Bảy</item>
+    </string-array>
+    <string-array name="months">
+        <item>Th.1</item>
+        <item>Th.2</item>
+        <item>Th.3</item>
+        <item>Th.4</item>
+        <item>Th.5</item>
+        <item>Th.6</item>
+        <item>Th.7</item>
+        <item>Th.8</item>
+        <item>Th.9</item>
+        <item>Th.10</item>
+        <item>Th.11</item>
+        <item>Th.12</item>
+    </string-array>
+</resources>

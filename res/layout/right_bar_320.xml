@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/sys_stat" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="6.0dip">
+        <TextView android:textSize="20.0sp" android:id="@id/gps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:text="@string/default_gps_number" android:drawableLeft="@drawable/satellite" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip">
+            <ImageView android:id="@id/bluetooth" android:paddingRight="8.0dip" android:layout_width="26.0dip" android:layout_height="38.0dip" android:src="@drawable/stat_sys_data_bluetooth" android:scaleType="center" />
+            <ImageView android:id="@id/wifi" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="38.0dip" android:src="@drawable/stat_sys_wifi_signal_0_fully" />
+        </LinearLayout>
+        <com.android.systemui.plugin.MobileNetworkView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.android.systemui.plugin.BatteryMeterView android:id="@id/battery" android:paddingLeft="4.0dip" android:paddingRight="12.0dip" android:layout_width="32.0dip" android:layout_height="28.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="2.0dip" />
+            <ImageView android:id="@id/fm" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/stat_fm" />
+        </LinearLayout>
+        <ImageView android:id="@id/mute" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="32.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/stat_mute" />
+        <ImageView android:id="@id/gps_disabled" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="40.0dip" android:layout_marginBottom="2.0dip" android:src="@drawable/stat_gps_disabled" />
+    </LinearLayout>
+    <com.android.systemui.plugin.WeatherView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

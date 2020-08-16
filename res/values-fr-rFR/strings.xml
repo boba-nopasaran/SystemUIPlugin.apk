@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SystemUIPlugin</string>
+    <string name="time_am">Matin</string>
+    <string name="time_pm">Après-midi</string>
+    <string name="calendar_year">Année</string>
+    <string name="calendar_month">Mois</string>
+    <string name="calendar_day">Jour</string>
+    <string name="tip_time_h">Heure</string>
+    <string name="tip_time_m">Minute</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+</resources>

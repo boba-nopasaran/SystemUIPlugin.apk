@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Πρόσθετο UI του συστήματος</string>
+    <string name="time_am">Πρωί</string>
+    <string name="time_pm">Απόγευμα</string>
+    <string name="calendar_year">-</string>
+    <string name="calendar_month">-</string>
+    <string name="calendar_day" />
+    <string name="tip_time_h">" "</string>
+    <string name="tip_time_m">" "</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="weather_fail">Δεν είναι δυνατή η λήψη πληροφοριών σχετικά με τις καιρικές συνθήκες</string>
+    <string name="update_weather">Λήψη πληροφοριών καιρού………</string>
+    <string name="weather_timeout">Δεν είναι δυνατή η λήψη πληροφοριών σχετικά με τις καιρικές συνθήκες, ελέγξτε το διαδίκτυο!</string>
+    <string name="no_network">Δεν υπάρχει δίκτυο, παρακαλώ συνδέστε το δίκτυο!</string>
+</resources>

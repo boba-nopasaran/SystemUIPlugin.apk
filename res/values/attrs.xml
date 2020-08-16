@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="keyCode" format="integer" />
+    <attr name="keyRepeat" format="boolean" />
+    <attr name="frameColor" format="color" />
+    <attr name="amPmStyle">
+        <enum name="gone" value="2" />
+        <enum name="normal" value="0" />
+        <enum name="small" value="1" />
+    </attr>
+    <attr name="orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="datePattern" format="string" />
+</resources>

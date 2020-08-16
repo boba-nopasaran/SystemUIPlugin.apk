@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="btn" />
+    <item type="id" name="navigation_view" />
+    <item type="id" name="home" />
+    <item type="id" name="back" />
+    <item type="id" name="date_and_time" />
+    <item type="id" name="calendarView" />
+    <item type="id" name="fullscreen_btn" />
+    <item type="id" name="voice" />
+    <item type="id" name="custom_btn" />
+    <item type="id" name="timeView" />
+    <item type="id" name="signal_cluster_combo" />
+    <item type="id" name="airplane_on" />
+    <item type="id" name="hotspot_on" />
+    <item type="id" name="network_type" />
+    <item type="id" name="mobile_combo" />
+    <item type="id" name="mobile_signal" />
+    <item type="id" name="mobile_type" />
+    <item type="id" name="mobile_type_custom" />
+    <item type="id" name="sys_stat" />
+    <item type="id" name="gps" />
+    <item type="id" name="wifi" />
+    <item type="id" name="battery" />
+    <item type="id" name="bluetooth" />
+    <item type="id" name="mute" />
+    <item type="id" name="gps_disabled" />
+    <item type="id" name="fm" />
+    <item type="id" name="imageview" />
+    <item type="id" name="weather" />
+    <item type="id" name="temperature" />
+    <item type="id" name="city" />
+    <item type="id" name="weather_info" />
+    <item type="id" name="weather_fail" />
+</resources>

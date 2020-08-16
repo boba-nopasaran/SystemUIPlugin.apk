@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">[ŠýšţéḿÛÎÞļûĝîñ one two three]</string>
+    <string name="time_am">[ ÅḾ one]</string>
+    <string name="time_pm">[ ÞḾ one]</string>
+    <string name="calendar_year">[- one]</string>
+    <string name="calendar_month">[- one]</string>
+    <string name="calendar_day">[ one]</string>
+    <string name="tip_time_h">"[  one]"</string>
+    <string name="tip_time_m">"[  one]"</string>
+    <string name="battery_meter_very_low_overlay_symbol">[¡ one]</string>
+    <string name="default_gps_number">[0 one]</string>
+    <string name="weather_fail">[无法获取天气信息 one two]</string>
+    <string name="update_weather">[正在获取天气信息……… one two]</string>
+    <string name="weather_timeout">[无法获取天气信息，请检查网络¡ one two three]</string>
+    <string name="no_network">[无网络，请连接网络¡ one two]</string>
+</resources>

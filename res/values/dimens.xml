@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16.0dip</dimen>
+    <dimen name="activity_vertical_margin">16.0dip</dimen>
+    <dimen name="key_button_ripple_max_width">55.0dip</dimen>
+    <dimen name="navigation_key_width">85.0dip</dimen>
+    <dimen name="navigation_key_height">85.0dip</dimen>
+    <dimen name="top_time_text_size">20.0sp</dimen>
+    <dimen name="top_calendar_text_size">20.0sp</dimen>
+    <dimen name="top_record_text_size">25.0sp</dimen>
+    <dimen name="top_time_margin_right">10.0dip</dimen>
+    <dimen name="top_time_height">10.0dip</dimen>
+    <dimen name="top_dot_size">15.0dip</dimen>
+    <dimen name="navigation_view_margin_bottom">35.0dip</dimen>
+    <dimen name="date_margin_bottom">13.0dip</dimen>
+    <dimen name="iv_weather_width">80.0dip</dimen>
+    <dimen name="iv_weather_height">80.0dip</dimen>
+    <dimen name="tv_weather">18.0sp</dimen>
+    <dimen name="tv_temperature">20.0sp</dimen>
+    <dimen name="tv_city">20.0sp</dimen>
+</resources>

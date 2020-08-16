@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdays">
+        <item>復活</item>
+        <item>月曜日</item>
+        <item>火曜日</item>
+        <item>水曜日</item>
+        <item>木曜日</item>
+        <item>金曜日</item>
+        <item>土曜日</item>
+    </string-array>
+    <string-array name="months">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <integer-array name="batterymeter_color_levels">
+        <item>4</item>
+        <item>15</item>
+        <item>100</item>
+    </integer-array>
+    <array name="batterymeter_color_values">
+        <item>#ffff3300</item>
+        <item>#ffff3300</item>
+        <item>#ffffffff</item>
+    </array>
+    <integer-array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </integer-array>
+</resources>

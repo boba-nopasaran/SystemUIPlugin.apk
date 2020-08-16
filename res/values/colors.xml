@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="shadow">#cc222222</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="grey">#ffaaadb2</color>
+    <color name="green">#ff65d081</color>
+    <color name="blue">#ff0b6aff</color>
+    <color name="recording_time">#ffffffff</color>
+    <color name="top_font_normal">#dddddddd</color>
+    <color name="batterymeter_frame_color">#66ffffff</color>
+    <color name="batterymeter_charge_color">#ffffffff</color>
+    <color name="batterymeter_bolt_color">#b2000000</color>
+</resources>

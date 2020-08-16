@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SystemUIPlugin</string>
+    <string name="time_am">上午</string>
+    <string name="time_pm">下午</string>
+    <string name="calendar_year">年</string>
+    <string name="calendar_month">月</string>
+    <string name="calendar_day">日</string>
+    <string name="tip_time_h">点</string>
+    <string name="tip_time_m">分</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+</resources>

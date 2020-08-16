@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageview" android:visibility="gone" android:layout_width="@dimen/iv_weather_width" android:layout_height="@dimen/iv_weather_height" android:scaleType="fitCenter" />
+    <TextView android:textSize="@dimen/tv_weather" android:textColor="#bbffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/weather" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+    <TextView android:textSize="@dimen/tv_temperature" android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/temperature" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/tv_city" android:textColor="#bbffffff" android:layout_gravity="center_horizontal" android:id="@id/city" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/weather_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/weather_fail" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

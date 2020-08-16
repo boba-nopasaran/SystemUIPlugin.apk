@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SystemUI</string>
+    <string name="time_am">AM</string>
+    <string name="time_pm">PM</string>
+    <string name="calendar_year">-</string>
+    <string name="calendar_month">-</string>
+    <string name="calendar_day" />
+    <string name="tip_time_h">" "</string>
+    <string name="tip_time_m">" "</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="weather_fail">Der Fehler des Erhaltens der Zusammenfassung des Wetters</string>
+    <string name="update_weather">Das Erhalten der Zusammenfassung des Wetters</string>
+    <string name="weather_timeout">Der Fehler des Erhaltens der Zusammenfassung,prüfen Sie das Netz !</string>
+    <string name="no_network">Keine Netzwerkverbindung !</string>
+</resources>
