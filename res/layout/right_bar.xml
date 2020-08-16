@@ -10,6 +10,9 @@
         <ImageView android:id="@id/mute" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="40.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/stat_mute" />
         <ImageView android:id="@id/gps_disabled" android:visibility="gone" android:layout_width="27.0dip" android:layout_height="40.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/stat_gps_disabled" />
         <ImageView android:id="@id/fm" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/stat_fm" />
+<!--by boba 15.08.2020
+temp -->
+        <TextView android:textSize="20.0sp" android:id="@id/temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="36" />
     </LinearLayout>
     <com.android.systemui.plugin.TimeView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/top_time_text_size" android:textColor="@color/top_font_normal" android:gravity="left" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginBottom="28.0dip" android:layout_alignParentBottom="true" />
 </RelativeLayout>

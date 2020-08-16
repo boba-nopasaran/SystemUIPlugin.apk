@@ -44,6 +44,9 @@
 
     move-result-object v0
 
+iget-object v4, p0, Lcom/android/systemui/plugin/RightBar$6;->this$0:Lcom/android/systemui/plugin/RightBar;
+invoke-static {v4}, Lcom/android/systemui/plugin/RightBar;->access$temp(Lcom/android/systemui/plugin/RightBar;)V
+
     const-string v4, "android.net.wifi.RSSI_CHANGED"
 
     invoke-virtual {v0, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z

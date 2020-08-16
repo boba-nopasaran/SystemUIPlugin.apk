@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <public type="id" name="temp" id="0x7f0abb01" />
     <public type="attr" name="keyCode" id="0x7f010000" />
     <public type="attr" name="keyRepeat" id="0x7f010001" />
     <public type="attr" name="frameColor" id="0x7f010002" />
