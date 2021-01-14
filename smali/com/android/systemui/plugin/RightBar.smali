@@ -28,6 +28,10 @@
 
 
 # instance fields
+#by boba 15.08.2020
+#temp
+.field private mTempView:Landroid/widget/TextView;
+
 .field private mAudioManager:Landroid/media/AudioManager;
 
 .field private mBluetoothImageView:Landroid/widget/ImageView;
@@ -288,6 +292,14 @@
 
     .line 92
     iget-object v2, p0, Lcom/android/systemui/plugin/RightBar;->mRootView:Landroid/view/View;
+
+#by boba 15.08.2020
+#temp
+const v3, 0x7f0abb01
+invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+move-result-object v3
+check-cast v3, Landroid/widget/TextView;
+iput-object v3, p0, Lcom/android/systemui/plugin/RightBar;->mTempView:Landroid/widget/TextView;
 
     const v3, 0x7f0a0018
 
@@ -555,6 +567,34 @@
     .line 30
     invoke-direct {p0, p1}, Lcom/android/systemui/plugin/RightBar;->updateGpsStateDelay(I)V
 
+    return-void
+.end method
+
+#by boba 15.08.2020
+#temp
+.method static synthetic access$temp(Lcom/android/systemui/plugin/RightBar;)V
+    .locals 0
+    invoke-direct {p0}, Lcom/android/systemui/plugin/RightBar;->updateTemp()V
+    return-void
+.end method
+
+.method private updateTemp()V
+    .locals 2
+	invoke-static {}, Lcom/car/common/CarUtil;->getCPUThermal()I
+	move-result v0
+	add-int/lit16 v0,v0,500
+	div-int/lit16 v0,v0,1000
+    new-instance v1, Ljava/lang/StringBuilder;
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    move-result-object v1
+    const-string v0, "°"
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    move-result-object v1
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v1
+    iget-object v0, p0, Lcom/android/systemui/plugin/RightBar;->mTempView:Landroid/widget/TextView;
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
     return-void
 .end method
 

@@ -32,4 +32,9 @@
     <item type="id" name="city" />
     <item type="id" name="weather_info" />
     <item type="id" name="weather_fail" />
+
+<!--by boba 15.08.2020
+temp -->
+    <item type="id" name="temp" />
+
 </resources>
