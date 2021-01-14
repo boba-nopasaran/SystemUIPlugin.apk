@@ -667,6 +667,13 @@
 
     move-result-object v7
 
+#by boba 26.12.2020
+#speechTime for ru
+const-string v8, "ru"
+invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+move-result v8
+if-nez v8, :goto_0
+
     const-string v8, "zh"
 
     invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
