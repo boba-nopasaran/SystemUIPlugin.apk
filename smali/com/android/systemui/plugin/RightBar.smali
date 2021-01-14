@@ -295,7 +295,7 @@
 
 #by boba 15.08.2020
 #temp
-const v3, 0x7f0abb01
+const v3, 0x7f0a0025
 invoke-virtual {v2, v3}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 move-result-object v3
 check-cast v3, Landroid/widget/TextView;

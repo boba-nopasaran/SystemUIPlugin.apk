@@ -36,5 +36,7 @@
 <!--by boba 15.08.2020
 temp -->
     <item type="id" name="temp" />
+	
+	<item type="id" name="timeview" />
 
 </resources>
