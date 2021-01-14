@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item type="id" name="temp" />
+    <item type="id" name="timeview" />
     <item type="id" name="btn" />
     <item type="id" name="navigation_view" />
     <item type="id" name="home" />
