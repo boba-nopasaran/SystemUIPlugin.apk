@@ -2,8 +2,4 @@
 <resources>
     <string name="app_name">SystemUIPlugin</string>
     <string name="tip_time_h">:</string>
-    <string name="weather_fail">Невозможно получить информацию о погоде</string>
-    <string name="update_weather">Получение информации о погоде</string>
-    <string name="weather_timeout">Не удалось получить информацию о погоде, проверьте сеть!</string>
-    <string name="no_network">Нет сети, пожалуйста, подключитесь к сети!</string>
 </resources>
