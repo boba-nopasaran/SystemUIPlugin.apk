@@ -59,7 +59,24 @@
             android:src="@drawable/ic_sysbar_back"
             systemui:keyCode="4" />
     </LinearLayout>
+<!--
+    <LinearLayout
+        android:id="@id/navigation_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:gravity="center_vertical|right"
+        android:orientation="vertical">
 
+        <View
+            android:id="@id/navigation_view"
+            android:layout_width="@dimen/navigation_key_width"
+            android:layout_height="@dimen/navigation_key_height"
+            android:scaleType="center"
+            android:background="@drawable/fullscreen_normal"
+            />
+    </LinearLayout>
+-->
     <LinearLayout
         android:id="@id/date_and_time"
         android:layout_width="fill_parent"

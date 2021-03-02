@@ -17,83 +17,128 @@
         android:paddingTop="10dp"
         boba:corner_TopRight="95">
 
-            <TextView
-                android:id="@id/gps"
-                android:layout_width="wrap_content"
-                android:layout_height="27dp"
-                android:paddingLeft="3dp"
-				android:paddingTop="3dp"
-                android:drawableStart="@drawable/satellite"
-                android:includeFontPadding="false"
-                android:text="@string/default_gps_number"
-                android:textSize="20.0sp" />
+        <ImageView
+            android:id="@id/airplane_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0.0dip"
+            android:src="@drawable/stat_sys_airplane_mode"
+            android:visibility="gone" />
 
-            <com.android.systemui.plugin.MobileNetworkView
-                android:layout_width="wrap_content"
-                android:layout_height="27dp"
-                android:padding="3dp" />
+        <ImageView
+            android:id="@id/network_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
 
-            <ImageView
-                android:id="@id/wifi"
-                android:layout_width="27dp"
-                android:layout_height="27dp"
-                android:padding="3dp"
-                android:src="@drawable/stat_sys_wifi_signal_0_fully"
-                android:visibility="visible" />
+        <FrameLayout
+            android:id="@id/mobile_combo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@id/bluetooth"
-                android:layout_width="27dp"
-                android:layout_height="27dp"
-                android:padding="3dp"
-                android:src="@drawable/stat_sys_data_bluetooth" />
+                android:id="@id/mobile_signal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/stat_sys_signal_null" />
 
             <ImageView
-                android:id="@id/fm"
+                android:id="@id/mobile_type"
                 android:layout_width="wrap_content"
-                android:layout_height="27dp"
-                android:padding="3dp"
-                android:src="@drawable/stat_fm"
-                android:visibility="gone"
-                tools:ignore="ContentDescription" />
+                android:layout_height="wrap_content" />
 
             <ImageView
-                android:id="@id/mute"
-                android:layout_width="wrap_content"
-                android:layout_height="27dp"
-                android:padding="3dp"
-                android:src="@drawable/stat_mute"
+                android:id="@id/mobile_type_custom"
+                android:layout_width="13.0dip"
+                android:layout_height="13.0dip"
                 android:visibility="gone" />
+        </FrameLayout>
 
-            <ImageView
-                android:id="@id/gps_disabled"
-                android:layout_width="wrap_content"
+        <TextView
+            android:id="@id/gps"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
+            android:drawableStart="@drawable/satellite"
+            android:includeFontPadding="false"
+            android:text="@string/default_gps_number"
+            android:textSize="20.0sp" />
+
+        <com.android.systemui.plugin.MobileNetworkView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@id/wifi"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:padding="3dp"
+            android:src="@drawable/stat_sys_wifi_signal_0_fully"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@id/hotspot_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0.0dip"
+            android:src="@drawable/stat_sys_hotspot_on"
+            android:visibility="gone" />
+        
+        <ImageView
+            android:id="@id/bluetooth"
+            android:layout_width="27dp"
+            android:layout_height="27dp"
+            android:padding="3dp"
+            android:src="@drawable/stat_sys_data_bluetooth" />
+
+        <ImageView
+            android:id="@id/fm"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:padding="3dp"
+            android:src="@drawable/stat_fm"
+            android:visibility="gone"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@id/mute"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:padding="3dp"
+            android:src="@drawable/stat_mute"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@id/gps_disabled"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:padding="3dp"
+            android:src="@drawable/stat_gps_disabled"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="18dp"
+            android:layout_height="27dp"
+            android:padding="3dp">
+
+            <com.android.systemui.plugin.BatteryMeterView
+                android:id="@id/battery"
+                android:layout_width="16dp"
                 android:layout_height="27dp"
-                android:padding="3dp"
-                android:src="@drawable/stat_gps_disabled"
-                android:visibility="gone" />
+                android:paddingTop="4dp" />
+        </LinearLayout>
 
-            <LinearLayout
-                android:layout_width="18dp"
-                android:layout_height="27dp"
-                android:padding="3dp">
-
-                <com.android.systemui.plugin.BatteryMeterView
-                    android:id="@id/battery"
-                    android:layout_width="16dp"
-                    android:layout_height="27dp"
-                    android:paddingTop="4dp" />
-            </LinearLayout>
-
-            <!--by boba 15.08.2020
-            temp -->
-            <TextView
-                android:id="@id/temp"
-                android:layout_width="wrap_content"
-                android:layout_height="27dp"
-                android:includeFontPadding="false"
-                android:padding="3dp"
-                android:textSize="20.0sp" />
+        <!--by boba 15.08.2020
+        temp -->
+        <TextView
+            android:id="@id/temp"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:includeFontPadding="false"
+            android:padding="3dp"
+            android:textSize="20.0sp" />
 
     </su.boba.bobalayout>
 
