@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SystemUIPlugin</string>
+    <string name="time_am">AM</string>
+    <string name="time_pm">PM</string>
+    <string name="calendar_year">-</string>
+    <string name="calendar_month">-</string>
+    <string name="calendar_day" />
+    <string name="tip_time_h">" "</string>
+    <string name="tip_time_m">" "</string>
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+    <string name="default_gps_number">0</string>
+    <string name="weather_fail">无法获取天气信息</string>
+    <string name="update_weather">正在获取天气信息………</string>
+    <string name="weather_timeout">无法获取天气信息，请检查网络!</string>
+    <string name="no_network">无网络，请连接网络!</string>
+</resources>
