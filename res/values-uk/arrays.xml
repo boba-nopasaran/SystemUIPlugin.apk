@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdays">
+        <item>Неділя</item>
+        <item>Понеділок</item>
+        <item>Вівторок</item>
+        <item>Середа</item>
+        <item>Четвер</item>
+        <item>П\'ятниця</item>
+        <item>Субота</item>
+    </string-array>
+    <string-array name="months">
+        <item>Січня</item>
+        <item>Лютого</item>
+        <item>Березня</item>
+        <item>Квітня</item>
+        <item>Травня</item>
+        <item>Червня</item>
+        <item>Липня</item>
+        <item>Серпня</item>
+        <item>Вересня</item>
+        <item>Жовтня</item>
+        <item>Листопада</item>
+        <item>Грудня</item>
+    </string-array>
+</resources>

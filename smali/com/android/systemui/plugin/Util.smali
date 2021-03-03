@@ -674,6 +674,13 @@ invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 move-result v8
 if-nez v8, :goto_0
 
+#by boba 03.03.2021
+#speechTime for ru
+const-string v8, "uk"
+invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+move-result v8
+if-nez v8, :goto_0
+
     const-string v8, "zh"
 
     invoke-virtual {v7, v8}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
