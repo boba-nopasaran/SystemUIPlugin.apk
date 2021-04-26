@@ -150,5 +150,7 @@ temp -->
 	<public type="id" name="temp" id="0x7f0a0025" />
 	
 	<public type="id" name="timeview" id="0x7f0a0026" />
+	
+	<public type="id" name="volume_panel" id="0x7f0a0027" />
 
 </resources>

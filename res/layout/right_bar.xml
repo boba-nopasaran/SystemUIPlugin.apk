@@ -58,17 +58,17 @@
             android:id="@id/gps"
             android:layout_width="wrap_content"
             android:layout_height="27dp"
-            android:paddingLeft="3dp"
-            android:paddingTop="3dp"
             android:drawableStart="@drawable/satellite"
             android:includeFontPadding="false"
+            android:paddingLeft="3dp"
+            android:paddingTop="3dp"
             android:text="@string/default_gps_number"
             android:textSize="20.0sp" />
 
         <com.android.systemui.plugin.MobileNetworkView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <ImageView
             android:id="@id/wifi"
@@ -85,7 +85,7 @@
             android:layout_marginRight="0.0dip"
             android:src="@drawable/stat_sys_hotspot_on"
             android:visibility="gone" />
-        
+
         <ImageView
             android:id="@id/bluetooth"
             android:layout_width="27dp"
@@ -146,12 +146,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/timeview"
+        android:layout_marginLeft="10dp"
         android:orientation="horizontal">
 
         <com.android.systemui.plugin.KeyButtonView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
+            android:layout_marginRight="10dp"
             android:src="@drawable/ic_sysbar_brightness_down"
             systemui:keyCode="220"
             systemui:keyRepeat="true" />
@@ -159,7 +160,6 @@
         <com.android.systemui.plugin.KeyButtonView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
             android:src="@drawable/ic_sysbar_brightness_up"
             systemui:keyCode="221"
             systemui:keyRepeat="true" />
@@ -172,7 +172,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="17.0dp"
-        android:layout_marginBottom="28.0dp"
+        android:layout_marginBottom="16dp"
         android:clickable="true"
         android:focusable="true"
         android:textAppearance="?android:textAppearanceMedium"
